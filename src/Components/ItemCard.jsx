@@ -7,7 +7,7 @@ const ItemCard = ({ id, img, name, price, qty }) => {
   const dispatch = useDispatch();
 
   return (
-    <div className='ml-2 mr-2 flex items-center gap-4 p-4 bg-white rounded-md shadow-md hover:shadow-lg transition-all'>
+    <div className='ml-4 mr-4 flex items-center gap-4 p-4 bg-white rounded-md shadow-md hover:shadow-lg transition-all'>
       <img src={img} alt={name} className='w-16 h-16 object-cover rounded-md' />
 
       <div className='flex flex-grow flex-col'>
