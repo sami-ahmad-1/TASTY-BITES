@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 import { PropagateLoader } from "react-spinners";
 
 function Success() {
-  const [loading, setLoading] = useState(true); // Use boolean instead of string
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
     setTimeout(() => {
-      setLoading(false); // Use boolean value
+      setLoading(false)
     }, 3000);
   }, []);
 
