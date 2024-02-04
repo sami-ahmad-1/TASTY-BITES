@@ -55,7 +55,7 @@ const Cart = () => {
               Total amount: ₹{totalPrice}
             </h3>
             <hr />
-            <button className="bg-[#FC6736] w-[20vw] h-[5vh] text-2xl text-white rounded-md hover:bg-red-600 transition-all duration-300"
+            <button className="bg-[#FC6736] md:w-full h-[5vh] text-2xl text-white rounded-md hover:bg-red-600 transition-all duration-300"
             onClick={() => navigate('/success')}>
               Checkout
             </button>
