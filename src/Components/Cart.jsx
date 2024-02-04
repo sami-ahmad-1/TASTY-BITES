@@ -25,7 +25,7 @@ const Cart = () => {
   return (
     <>
       {isCartOpen && (
-               <div className="fixed right-0 top-0 bg-orange-100 h-full lg:w-2/6 w-full shadow-lg rounded-l-md  ">
+               <div className="fixed right-0 top-0 bg-orange-100 h-full lg:w-1/5 w-full shadow-lg rounded-l-md  ">
           <div className="flex justify-between pr-3 pt-3 mb-6">
             <span className="text-center ml-6 text-2xl font-semibold">
               My Orders
